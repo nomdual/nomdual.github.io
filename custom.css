@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+h1, label{
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing:    auto;
+    font-weight: 400;
+    font-style: normal;
+
+}
+.singleCol{
+    max-width: 750px;
+    margin: 0 auto;   
+}
+
+label {
+    font-size: 1.05rem;
+
+}
+form, form-label {
+    margin-bottom: 2px;
+}
+
+.form-control:focus{
+    box-shadow: none;
+    border-color: green
+}
